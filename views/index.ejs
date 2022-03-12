@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main_content container-flex">
+        <form action="" autocomplete="off">
+          <div class="main-head">
+            <h2>Enter Location :</h2>
+          </div>
+          <div class="city">
+            <input type="text" id="city_inp" autocomplete="off" />
+          </div>
+          <div class="button">
+            <input type="button" value="Submit" id="sub_but" />
+          </div>
+        </form>
+      </div>
+      <div class="info">
+        <div class="temp_info">
+          <img src="temp.png" alt="" />
+          <h2>Temperature (in &deg;C) :</h2>
+        </div>
+        <h3 id="temp"></h3>
+        <div class="condition_temp">
+          <img src="weather.png" alt="" />
+          <h2>Conditions :</h2>
+        </div>
+        <h3 id="cond"></h3>
+      </div>
+      <script src="control_page.js"></script>
+    </div>
+  </body>
+</html>

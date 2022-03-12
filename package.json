@@ -1,0 +1,24 @@
+{
+    "name": "weather-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+      "node": "14.x"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Daniel",
+    "license": "ISC",
+    "dependencies": {
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "openweather-apis": "^4.4.2",
+      "server": "^1.0.36"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.13"
+    }
+  }
